@@ -160,6 +160,12 @@ button {
   display: block;
   color: inherit;
 }
+
+.link-block-grand {
+  display: flex;
+  color: inherit;
+}
+
 .link-block:hover {
   text-decoration: none;
 }
@@ -449,6 +455,8 @@ font-size: 1.8em;
 
 .news-list__news-grand {
     grid-column: span 3;
+
+
 }
 
 /**
