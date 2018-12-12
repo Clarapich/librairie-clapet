@@ -267,7 +267,11 @@ button {
 
 
 .header__nav {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgb(0, 0, 0);
+text-align: center;
+font-size: "Monserrat";
+font-weight: 200;
+
 }
 
 .nav-main__item {
@@ -278,6 +282,7 @@ button {
   display: block;
   padding: 10px;
   color: #fff;
+
 }
 .nav-main__link:hover {
   text-decoration: none;
@@ -291,7 +296,7 @@ button {
 .separator { 
   display: block;
   margin-top: 60px;
-  margin-bottom: 60px;
+  marginbottom: 60px;
   margin-left: auto;
   margin-right: auto;
   height: 52px;
