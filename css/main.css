@@ -1,5 +1,5 @@
 
-<link href="https://fonts.googleapis.com/css?family=Montserrat:200i,500,700|Work+Sans:300,400" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200i,300,500,600,700|Work+Sans:200,300,400');
 
 /**
 * -----------
@@ -11,7 +11,7 @@ body {;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family:"Work Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #303044;
 }
@@ -67,7 +67,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   line-height: 1;
 }
 
@@ -290,10 +290,10 @@ button {
 */
 .separator { 
   margin: 50px auto;
-  width: 193.2px;
-  height: 51.8px;
+  text-align: center
+  height: 52px;
   border: none;
-  background-color: #d9d9d9;
+
 }
 
 
