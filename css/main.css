@@ -17,8 +17,9 @@ body {;
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 1.4em;
+  font-size: 2.4em;
   line-height: 1.4;
+  margin: 0;
 }
 
 li {
@@ -47,8 +48,11 @@ h2 {
 
 h3 {
   margin: 25px 0;
-  font-size: 2.6em;
-  font-weight: 200;
+  font-size: 3.4em;
+  margin: 0 0 15px;
+  font-weight: bold;
+  line-height: 1.4;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 h4 {
@@ -400,16 +404,22 @@ font-size: 1.8em;
   color: #e8a27d;
 }
 
+.news__date-grand {
+  margin: 0;
+  font-size: 1.8em;
+  color: #e8a27d;
+}
+
 .news__title {
   margin: 0 0 15px;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 3.4em;
   line-height: 1.4;
 }
 
 .news__text {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 2.4em;
   line-height: 1.4;
 }
 
@@ -431,7 +441,7 @@ font-size: 1.8em;
 .news--main .news__thumbnail {
   margin-bottom: 0;
   margin-right: 40px;
-  min-width: 360px;
+  min-width: 481px;
 }
 
 /**
