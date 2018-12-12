@@ -11,7 +11,7 @@ body {;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family:"Work Sans", Helvetica, Arial, sans-serif;
+  font-family:"Work Sans", Helvetica, Arial, sans-serif; 
   font-weight: 400;
   color: #303044;
 }
@@ -269,8 +269,8 @@ button {
 .header__nav {
   background-color: rgb(0, 0, 0);
 text-align: center;
-font-size: "Monserrat";
 font-weight: 200;
+font-size: 1.8em;
 
 }
 
