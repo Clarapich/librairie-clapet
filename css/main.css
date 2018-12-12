@@ -200,6 +200,13 @@ button {
   font-size: 2.5em;
   text-align: center;
   margin: 5em;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  height: 145px;
+  width: 960px;
+}
 }
 
 .full-width {
