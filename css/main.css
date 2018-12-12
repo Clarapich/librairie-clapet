@@ -41,7 +41,7 @@ h1 {
 
 h2 {
   margin: 25px 0;
-  font-size: 3.5em;
+  font-size: 6.4em;
   font-weight: 200;
 }
 
@@ -94,7 +94,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
+  width: 144Ppx;
   max-width: 100%;
 }
 
@@ -198,10 +198,8 @@ button {
 
 .chapo {
   font-size: 2.5em;
-  height: 11.em;
   text-align: center;
-  width: 960px
-  margin: auto;
+  margin: 5em;
 }
 
 .full-width {
@@ -223,10 +221,7 @@ button {
 */
 .header {
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 35px;
-  width: 1440px;
   height: 463px;
   background: url("../img/header-bg.png");
   background-size: cover;
@@ -254,8 +249,9 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
+  font-size: 6.4em;
   margin: 0;
+  margin-bottom: 75px;
 }
 
 .header__subtitle {
@@ -311,6 +307,8 @@ font-size: 1.8em;
 
 .honey-pot-list {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .honey-pot {
@@ -343,13 +341,14 @@ font-size: 1.8em;
 
 .honey-pot__title {
   margin: 0;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 2.6em;
+  font-family: 'Montserrat';
+  font-weight: 600;
 }
 
 .honey-pot__subtitle {
   margin: 0;
-  font-size: 1.6em;
+  font-size: 2.2em;
   font-weight: 200;
 }
 
@@ -485,5 +484,6 @@ font-size: 1.8em;
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
