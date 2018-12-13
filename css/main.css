@@ -434,6 +434,10 @@ font-size: 1.8em;
 }
 .news--main .news__link {
   display: flex;
+  align-items: flex-start;}
+
+.news--main .news__thumbnail {
+  display: flex;
   align-items: flex-start;
 }
 .news--main .news__thumbnail {
@@ -512,9 +516,15 @@ font-size: 1.8em;
   grid-column: span 4;
 }
 
-.actu-list__news {
-  grid-column: span 1;
-}
+.actu-list_new--4 .news__thumbnail
+margin-bottom: 0;
+margin-right: 40px;
+
+.actu-list_new--4 .news__link {
+
+display: flex;
+align-items: flex-start;}
+
 
 /**
 * decouvrez-notre-librairie
