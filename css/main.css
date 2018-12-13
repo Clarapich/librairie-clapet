@@ -22,8 +22,6 @@ p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textare
   margin: 0;
 }
 
-li {
-  margin: 5px 0;
 }
 
 p {
@@ -98,7 +96,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 144Ppx;
+  width: 1440px;
   max-width: 100%;
 }
 
@@ -463,8 +461,7 @@ font-size: 1.8em;
   grid-column: span 1;
 }
 
-.news-list__news-grand {
-    grid-column: span 3;
+
 
 
 }
@@ -507,7 +504,11 @@ font-size: 1.8em;
   margin-bottom: 35px;
 }
 
-.actu-list .actu-list__news--main {
+
+.actu-list_new--2 {
+  grid-column: span 2;
+}
+.actu-list_new--4 {
   grid-column: span 4;
 }
 
